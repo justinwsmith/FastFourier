@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Justin W Smith"]
   spec.email         = ["justin.w.smith@gmail.com"]
   spec.description   = %q{An implementation of the Cooley-Tukey algorithm for the Discrete Fourier Transform}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = %q{An implementation of the Cooley-Tukey algorithm for the Discrete Fourier Transform}
   spec.homepage      = ""
   spec.license       = "MIT"
 

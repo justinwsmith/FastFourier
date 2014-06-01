@@ -8,11 +8,9 @@ module FastFourier
     Rational(1,1) => Complex(1, 0)
   }
 
-
   def FastFourier.discrete_fourier(vals, inverse = false)
-
     n = vals.length
-    if(n % 2 == 0) # if n is not a power of 2
+    if(n % 2 == 0)
       dft =  :cooley_tukey_dft
     else
       dft = :discrete_fourier_slow
@@ -36,9 +34,10 @@ module FastFourier
     alias_method(:dft, :discrete_fourier)
   end
 
+  # This is a self-inverse variation of the discrete fourier transform
   def FastFourier.discrete_involutary(vals)
   	n = vals.length
-    if(n % 2 == 0) # if n is not a power of 2
+    if(n % 2 == 0)
       dft =  :cooley_tukey_dft
     else
       dft = :discrete_fourier_slow
