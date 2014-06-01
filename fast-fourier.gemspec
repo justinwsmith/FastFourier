@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'FastFourier/version'
+require 'fast-fourier/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "FastFourier"
+  spec.name          = "fast-fourier"
   spec.version       = FastFourier::VERSION
   spec.authors       = ["Justin W Smith"]
   spec.email         = ["justin.w.smith@gmail.com"]
