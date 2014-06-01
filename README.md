@@ -6,7 +6,7 @@ An implementation of the Discrete Fourier Transform.
 
 Add this line to your application's Gemfile:
 
-    gem 'FastFourier'
+    gem 'fast-fourier'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install FastFourier
+    $ gem install fast-fourier
 
 ## Usage
 
