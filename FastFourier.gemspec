@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["justin.w.smith@gmail.com"]
   spec.description   = %q{An implementation of the Cooley-Tukey algorithm for the Discrete Fourier Transform}
   spec.summary       = %q{An implementation of the Cooley-Tukey algorithm for the Discrete Fourier Transform}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/justinwsmith/FastFourier"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
