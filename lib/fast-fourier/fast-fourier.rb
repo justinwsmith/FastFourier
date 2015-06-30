@@ -34,7 +34,7 @@ module FastFourier
 
   def FastFourier.discrete_fourier(vals, inverse = false)
     n = vals.length
-    if(n % 2 == 0)
+    if(n & (n-1) == 0)
       dft =  :cooley_tukey_dft
     else
       dft = :discrete_fourier_slow
